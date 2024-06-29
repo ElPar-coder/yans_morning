@@ -58,7 +58,7 @@ def yansmorning():
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
         
     st.sidebar.title("À venir")
-st.sidebar.markdown("Calendrier des événements")
+st.sidebar.markdown("Calendirer des cuckage")
 
 # Exécution de l'application Streamlit
 if __name__ == "__main__":
