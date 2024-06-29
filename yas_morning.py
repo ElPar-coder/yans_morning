@@ -56,6 +56,12 @@ def yansmorning():
     else:
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
 
+with st.sidebar:
+    add_radio = st.radio(
+        "Choose a shipping method",
+        ("Standard (5-15 days)", "Express (2-5 days)")
+    )
+
 # Exécution de l'application Streamlit
 if __name__ == "__main__":
     yansmorning()
