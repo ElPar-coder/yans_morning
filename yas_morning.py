@@ -57,10 +57,7 @@ def yansmorning():
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
 
 with st.sidebar:
-    add_radio = st.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
-    )
+  send_message_to_telegram("A venir")
 
 # Exécution de l'application Streamlit
 if __name__ == "__main__":
