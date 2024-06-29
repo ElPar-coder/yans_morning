@@ -57,7 +57,7 @@ def yansmorning():
     else:
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
         
-    st.sidebar.title("Historique des cucks (A venir)")
+    st.sidebar.title("Historique")
     sselected_date = st.sidebar.date_input("Jours de cuck : ", datetime.now())
 
 # Exécution de l'application Streamlit
