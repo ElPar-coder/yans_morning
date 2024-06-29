@@ -54,7 +54,7 @@ def yansmorning():
             # Enregistrement du pointage après validation
             record_user_point()
     else:
-        st.write("Désolé, vous avez déjà pointé aujourd'hui.")
+        st.write("T'as déjà pointé aujourd'hui.")
 
 # Exécution de l'application Streamlit
 if __name__ == "__main__":
