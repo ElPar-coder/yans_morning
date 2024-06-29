@@ -17,7 +17,7 @@ def send_message_to_telegram(message):
     return response.json()
 
 def yansmorning():
-    st.subheader('Yans Morning - Systeme de pointage V1.0.0', divider='rainbow')
+    st.subheader('YansCuck - Systeme de pointage V1.0.0', divider='rainbow')
     now = datetime.now()
     today_date = now.strftime( "%Y-%m-%d" )
     current_time = now.strftime( "%H:%M:%S" )
@@ -27,11 +27,11 @@ def yansmorning():
     if st.button("Valider"):
         if reponse == "Oui":
             st.write("Sale cuck 🦆.")
-            st.success( f'Réponse envoyé à {current_time} ! ', icon="✅" )
+            st.success( f'Pointage Validé à {current_time} ! ', icon="✅" )
             send_message_to_telegram( f"Il est cuck ce fdp aujourd'hui le {today_date} il a pointé à {current_time}." )
         else:
             st.write("OK jfait un café ☕️")
-            st.success( f'Réponse envoyé à {current_time} ! ', icon="✅" )
+            st.success( f'Pointage Validé à {current_time} ! ', icon="✅" )
             send_message_to_telegram( f"Miracle il est pas cuck aujourd'hui le {today_date} il a pointé à {current_time} go café." )
 
 
