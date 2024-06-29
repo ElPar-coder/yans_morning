@@ -58,7 +58,8 @@ def yansmorning():
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
         
     st.sidebar.title("Historique")
-    sselected_date = st.sidebar.date_input("Jours de cuck : ", datetime.now())
+     st.write("Yans à été cuck **30 fois** ce mois ci.")
+    sselected_date = st.sidebar.date_input("Choisir un jour précis : ", datetime.now())
 
 # Exécution de l'application Streamlit
 if __name__ == "__main__":
