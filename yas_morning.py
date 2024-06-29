@@ -56,9 +56,6 @@ def yansmorning():
     else:
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
 
-with st.sidebar:
-  send_message_to_telegram("A venir")
-
 # Exécution de l'application Streamlit
 if __name__ == "__main__":
     yansmorning()
