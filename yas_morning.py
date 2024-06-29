@@ -53,6 +53,9 @@ def yansmorning():
             
             # Enregistrement du pointage après validation
             record_user_point()
+
+    st.sidebar.title("À venir")
+st.sidebar.markdown("Calendrier des événements")
     else:
         st.write("Désolé, vous avez déjà pointé aujourd'hui.")
 
